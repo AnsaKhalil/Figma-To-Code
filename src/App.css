@@ -2,6 +2,7 @@
 /* Navbar Component Styling */
 
 .navbar {
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -492,4 +493,447 @@ margin:3% 43%;
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+}
+
+/*media queries*/
+
+/* Mobile (Smartphone) max-width: 480px.
+Low Resolution Tablets and ipads max-width: 767px.
+Tablets Ipads portrait mode max-width:1024px.
+Desktops max-width:1280px.
+Huge size (Larger screen) max-width: 1281px and greater. */
+
+@media(min-width:1280px){
+ 
+  .circle-mac{
+    margin-left:33.9%;
+  }
+  
+  .alumni{
+    padding-left:280px;
+  }
+  .programs-container{
+    height: 1550px;
+  }
+  .features-content{
+    width:688.9px;
+  }
+  .footer-content{
+    width:600px;
+  }
+}
+
+@media(max-width:1024px){
+  .about{
+    height:540px;
+  }
+  .circle-mac{
+    margin-left:23.5%;
+  }
+  .circle{
+    width:500px;
+    height:500px;
+    margin-left:180px;
+  }
+  .mac{
+    width:600px;
+    height:500px;
+  }
+  .big-text{
+width:400px;
+font-size: 30px;
+  } 
+  .dream{
+    font-size: 32px;
+  }
+  .small-text {
+    margin-left: 30px;
+    width: 500px;
+    font-size: 15.1px;
+    z-index:90;
+    position: relative;
+}
+  .alumni{
+    padding-left:140px;
+  }
+  .company-logo{
+    width:110px;
+  }
+  .programs-container{
+    height: 1550px;
+  }
+  .features-content{
+    width:550px;
+  }
+  .icon-para{
+    font-size: 14px;
+  }
+  .features-img{
+    width: 400px;
+    margin-left:20px !important;
+  }
+  .teaching-img{
+    width:70px;
+  }
+  .teaching-card{
+    padding: 10px 10px 0px;
+  }
+  .footer-img-para{
+    font-size: medium;
+  }
+  .footer-content {
+    width: 550px;
+    padding: 3% 15%;
+    font-size: 17px;
+    gap: 100px;
+}
+}
+
+@media(max-width:767px){
+  .navbar{
+    padding: 0px;
+    padding-right: 10px;
+  }
+  .navbar-logo-img{
+    width:100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+ 
+  .navbar-links a {
+      font-size: 15px;
+      padding: 0px 2px;
+  }
+  .navbar-btn{
+    font-size:15px;
+  }
+  .about{
+    height:440px;
+  }
+  .circle-mac{
+    margin-left:17%;
+  }
+  .circle{
+    width:400px;
+    height:400px;
+    margin-left:140px;
+  }
+  .mac{ margin-left: 50px;
+    width:450px;
+    height:400px;
+  }
+  .apply{
+    margin-top: 0px;
+    margin-left: 100px;
+    width:100px;
+    height: 35px;
+    font-size:15px;
+  }
+  .big-text{
+width:300px;
+font-size: 20px;
+  } 
+  .dream{
+    font-size: 25px;
+  }
+  .small-text {
+    margin-left: 20px;
+    width: 400px;
+    font-size: 14px;
+    z-index:90;
+    position: relative;
+}
+  .alumni{
+    width:550px;
+    padding-left:130px;
+    font-size: 22px;
+  }
+  .company-logo{
+    width:70px;
+  }
+  .programs-container{
+    height: 1250px;
+  }
+  .reviews-btn{
+    margin: 15% 30%;
+  }
+  .features-container{
+    height: 900px;
+  }
+  .features-content{
+    width:450px;
+  }
+  .icon-para{
+    font-size: 13px;
+  }
+  .features-img{
+    width: 250px;
+    margin-left:20px !important;
+  }
+  .teaching-container{
+    height: fit-content;
+  }
+  .teaching-img{
+    width:60px;
+  }
+  .teaching-cards {
+    gap: 20px;
+    padding: 20px;
+}
+  .teaching-card{
+    padding: 5px 5px 0px;
+    font-size: small;
+    height: 300px;
+  }
+  .teaching-btn{
+    margin-left: 325px;
+    font-size: medium;
+    width:120px;
+    height: 40px;
+  }
+  .footer-container{
+    height: fit-content;
+  }
+  .footer-img{
+    width:130px;
+  }
+  .footer-img-para{
+    font-size: small;
+    padding: 30px 0px 0px 50px
+  }
+  .footer-content {
+    width: 550px;
+    padding: 2% 0% 0% 15%;
+    font-size: 15px;
+    gap: 100px;
+}
+.top-circle{
+  width:65px;
+  height: 65px;
+}
+.top-img{
+  width: 50px;
+  height: 50px;
+}
+}
+
+@media(max-width:480px){
+  .navbar{
+    padding: 0px;
+  }
+  .navbar-logo-img{
+    width:80px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+ 
+  .navbar-links {
+      padding: 0px;
+      gap:5px;
+  }
+  .navbar-links a {
+font-size: 12px;
+  }
+  .navbar-btn{
+    font-size:12px;
+  }
+  .about{
+    height:290px;
+  }
+  .circle-mac{
+    margin-left:12%;
+    margin-top: 20px;
+  }
+  .circle{
+    width:250px;
+    height:250px;
+    margin-left:130px;
+  }
+  .mac{ margin-left: 56px;
+    width:280px;
+    height:250px;
+  }
+  .apply{
+    margin-top: 0px;
+    margin-left: 100px;
+    width:85px;
+    height: 30px;
+    font-size:13px;
+  }
+  .side-to-side{
+    padding-top: 20px;
+  }
+  .big-text{
+    margin-left: 20px;
+width:200px;
+font-size: 14px;
+  } 
+  .dream{
+    font-size: 16px;
+  }
+  .small-text {
+    margin-left: 0px;
+    width: 250px;
+    font-size: 10px;
+    z-index:90;
+    position: relative;
+}
+.small-texts{
+  margin-bottom: 5px;
+}
+.alumni-container{
+  height: 600px;
+}
+  .alumni{
+    width:450px;
+    padding-left:20px;
+    font-size: 20px;
+  }
+  .alumni-flex-container{
+    gap:15px;
+  }
+  .company-logo{
+    width:50px;
+    height: 50px;
+    margin-bottom: 40px;
+  }
+  .programs-container{
+    height: 1100px;
+  }
+  .programs-card-detail {
+    height: 210px;
+    font-size: small;
+}
+.reviews-container{
+  height: fit-content;
+}
+.reviews-card-container {
+  width: 250px;
+  height: 400px;
+}
+.reviews-img {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+}
+.reviews-card-heading {
+  font-size: small;
+  margin: 0px;
+  margin-top: 5px;
+}
+.reviews-card-content {
+  font-size: small;
+  padding-left: 5px;
+  margin: 0%;
+  width: 244px;
+}
+.reviews-quote {
+  font-size: 20px;
+}
+.end{
+  margin-left: 215px;
+}
+.reviews-readmore{
+  font-size: small;
+  margin-top: 90px;
+  margin-left: 160px;
+}
+.reviews-video{
+  margin-left: 12px !important;
+}
+.watch-more {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.reviews-cards{
+  padding-left: 25% !important;
+}
+.swiper-button-prev{
+  left: -100px !important;
+}
+.swiper-button-next{
+  right:-180px !important;
+}
+.swiper-pagination {
+  top: 430px !important;
+  left: 50px !important;
+}
+  .reviews-btn{
+    margin: 15% 30%;
+    font-size: small;
+    width:200px;
+    height: 50px;
+  }
+  .features-container{
+    height: 700px;
+    font-size: small;
+  }
+
+  .features-content {
+    margin-top: 10%;
+    padding: 25px 15px;
+    width: 250px;
+    height: 300px;
+}
+  .icon-para{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .features-icon-img{
+    width:20px;
+    height: 20px;
+  }
+  .features-img{
+    width: 200px;
+    margin-left:10px !important;
+  }
+  .teaching-container{
+    height: fit-content;
+    font-size: small;
+  }
+  .teaching-img{
+    width:50px;
+  }
+  .teaching-cards {
+    gap: 20px;
+    padding: 20px;
+}
+  .teaching-card{
+    padding: 5px 5px 0px;
+    font-size: smaller;
+    height: 300px;
+  }
+  .teaching-btn{
+    margin-left: 185px;
+    font-size: medium;
+    width:120px;
+    height: 40px;
+  }
+  .footer-container{
+    height: fit-content;
+    font-size: smaller;
+  }
+  .footer-img{
+    width:100px;
+  }
+  .footer-img-para{
+    font-size: smaller;
+    padding: 20px 0px 0px 40px
+  }
+  .footer-content {
+    width: 400px;
+    padding: 2% 0% 0% 5%;
+    font-size: 12px;
+    gap: 50px;
+}
+.top-circle{
+  width:55px;
+  height: 55px;
+}
+.top-img{
+  width: 40px;
+  height: 40px;
+}
 }
